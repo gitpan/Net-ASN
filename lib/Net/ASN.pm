@@ -34,7 +34,7 @@ BEGIN {
 
 	Exporter::export_ok_tags('all');
 
-    	$VERSION = '1.03';
+    	$VERSION = '1.02';
 }
 
 # Preloaded methods go here.
