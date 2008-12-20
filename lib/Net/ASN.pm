@@ -1,6 +1,6 @@
 #    ASN.pm - Perl module to manipulate autonomous system numbers
 #
-#    Author: David J. Freedman <lochii@convergence.cx>
+#    Author: David J. Freedman <lochii AT convergence DOT cx>
 #
 #    Copyright (C) 2008 Convergence Inc.
 #
@@ -34,7 +34,7 @@ BEGIN {
 
 	Exporter::export_ok_tags('all');
 
-    	$VERSION = '1.02';
+    	$VERSION = '1.04';
 }
 
 # Preloaded methods go here.
@@ -555,7 +555,7 @@ representation is is less than or equal to 65535, else returns AS_TRANS
 
 =head1 AUTHOR
 
-David J. Freedman <lochii@convergence.cx>
+David J. Freedman <lochii AT convergence DOT cx>
 
 =head1 COPYRIGHT
 
