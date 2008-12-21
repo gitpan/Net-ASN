@@ -34,7 +34,7 @@ BEGIN {
 
 	Exporter::export_ok_tags('all');
 
-    	$VERSION = '1.05';
+    	$VERSION = '1.06';
 }
 
 # Preloaded methods go here.
@@ -428,7 +428,7 @@ Net::ASN - Perl extension for manipulating autonomous system numbers
 
 Net::ASN provides functions for parsing autonomous system numbers 
 (ASNs) as defined in RFC 1771 and extended by RFC4893, also 
-converting between formats discussed in the RFC5396
+converting between formats discussed in RFC5396.
 
 Both an OO implementation (method based) and non-OO (function based)
 are provided for convenience.
